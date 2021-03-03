@@ -1,0 +1,10 @@
+SELECT LTRIM('    OLA  ');
+SELECT RTRIM('    OLA  ');
+SELECT TRIM('    OLA  ');
+
+SELECT CONCAT ('OLA',' ','TUDO BEM');
+SELECT UPPER('olá, tudo bem?');
+SELECT SUBSTRING('OLÁ, TUDO BEM?',6,4) AS RESULTADO;
+
+SELECT CONCAT(NOME,' (',CPF,') ')
+ AS RESULTADO FROM tabela_de_clientes;
